@@ -1,0 +1,1 @@
+rd /s Intermediate Binaries DerivedDataCache Release
