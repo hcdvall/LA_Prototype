@@ -13,13 +13,16 @@ class ULAInteractableInterface : public UInterface
 	GENERATED_BODY()
 };
 
-/**
- * 
- */
 class LA_PROTOTYPE_API ILAInteractableInterface
 {
 	GENERATED_BODY()
 
 	// Add interface functions to this class. This is the class that will be inherited to implement this interface.
-public:
+	public:
+	ILAInteractableInterface();
+
+	// Add interface functions to this class. This is the class that will be inherited to implement this interface.
+
+	UFUNCTION(BlueprintNativeEvent, BlueprintCallable)
+	void Interact();
 };

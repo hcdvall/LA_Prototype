@@ -18,10 +18,15 @@ void ALAInteractableVisualizer::BeginPlay()
 	
 }
 
-// Called every frame
-void ALAInteractableVisualizer::Tick(float DeltaTime)
+void ALAInteractableVisualizer::OnHighlighted_Implementation(AActor* Interactor)
 {
-	Super::Tick(DeltaTime);
-
+	bHighlighted = true;
 }
+
+void ALAInteractableVisualizer::OnUnHighlighted_Implementation(AActor* Interactor)
+{
+	bHighlighted = false;
+}
+
+
 

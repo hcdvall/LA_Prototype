@@ -3,4 +3,4 @@
 
 #include "Interactable/LAInteractableInterface.h"
 
-// Add default functionality here for any ILAInteractableInterface functions that are not pure virtual.
+

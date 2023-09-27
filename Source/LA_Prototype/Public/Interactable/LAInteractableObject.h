@@ -6,7 +6,7 @@
 #include "GameFramework/Actor.h"
 #include "LAInteractableObject.generated.h"
 
-UCLASS()
+UCLASS(Blueprintable, BlueprintType)
 class LA_PROTOTYPE_API ALAInteractableObject : public AActor
 {
 	GENERATED_BODY()
