@@ -25,4 +25,5 @@ class LA_PROTOTYPE_API ILAInteractableInterface
 
 	UFUNCTION(BlueprintNativeEvent, BlueprintCallable)
 	void Interact();
+	
 };
